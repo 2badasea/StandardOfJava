@@ -13,7 +13,7 @@ public class HashSetLotto {
 		
 		for(int i = 0; set.size() < 6; i++) {
 			int num = (int)(Math.random()*45) + 1;
-			set.add(new Integer(num));
+			set.add(num);
 		}
 		
 		List list = new LinkedList(set); // LinkedList(Collection c) 메서드 사용
